@@ -43,7 +43,7 @@ function App() {
       .select('*')
       .order('created_at', { ascending: false });
 
-      console.log(onewayRoads,"jjeje")
+      console.log(data,"jjeje")
 
     if (error) {
       console.error('Error loading roads:', error);
